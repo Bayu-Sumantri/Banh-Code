@@ -31,6 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="plans.php">plans</a></li>
                 </ul>
             </div>
         </div>
@@ -71,7 +72,7 @@
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>Programs</h4>
-                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        <p class="text-black-50 mb-0">we have a program called Banh Code where this program contains PHP (Hypertext Preprocessor) programming language</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +114,7 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                    <h2 class="text-white mb-5">give us feedback for improvement!</h2>
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN" action="proses_contact.php" method="post">
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
@@ -159,13 +160,13 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+656666666666</div>
+                            <div class="small text-black-50">+626666666666</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="https://twitter.com/Banh_Code"><i class="fab fa-twitter"></i></a>
                 <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                 <a class="mx-2" href="https://github.com/Bayu-Sumantri"><i class="fab fa-github"></i></a>
             </div>
