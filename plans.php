@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Class</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -123,26 +123,27 @@
         <div class="column" style="margin-left: 80px;">
             <div class="card1">
                 <img src="assets/img/javascript.png" alt=".." style="width: 300px;">
-                <h3>javascript</h3>
+                <h3>Javascript</h3>
                 <p>the users will be taught all the latest javascript technology and also the user will get an award from Banh Code if the user gets a good rating</p>
-                <a class="btn btn-primary" href="transaction_js.php">baba</a>
+                <a class="btn btn-primary" href="transaction_js.php">Select</a>
             </div>
         </div>
 
         <div class="column" style="margin-left: 500px;">
             <div class="card1">
                 <img src="assets/img/logo-python.png" alt="..." style="width: 300px;">
-                <h3>Card 2</h3>
-                <p>the users will be taught all the latest javascript technology and also the user will get an award from Banh Code if the user gets a good rating</p>
-                <a class="btn btn-primary" href="transaction_js.php">baba</a>
+                <h3>Python</h3>
+                <p>we will give all knowledge about python to users who will learn in this class and also we will give prizes to users who get good ratings from our team</p>
+                <a class="btn btn-primary" href="transaction_js.php">Select</a>
             </div>
         </div>
 
         <div class="column" style="margin-left: 500px;">
             <div class="card1">
-                <h3>Card 3</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                <img src="assets/img/php.png" alt=".." style="width: 300px;">
+                <h3 style="margin: 10px;">PHP</h3>
+                <p>Here we will learn about variables and looping in php and also we will learn a little about databases using mysql, precisely learn CRUD</p>
+                <a class="btn btn-primary" href="transaction_js.php">Select</a>
             </div>
         </div>
 
