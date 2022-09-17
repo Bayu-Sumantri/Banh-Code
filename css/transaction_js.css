@@ -5,6 +5,7 @@ body {
   // Bootstrap resets
   .card {
     border: none;
+    text-align: center;
   }
   .card-img {
     border-radius: 0;
@@ -64,6 +65,7 @@ body {
     .card-body {
       flex: 2;
       padding: 0 0 0 1.25rem;
+      text-align: center;
       
       @media (max-width: 576px) {
         padding: 0;

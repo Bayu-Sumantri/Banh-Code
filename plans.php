@@ -41,9 +41,8 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Banh Code;/;</h1>
+                    <h1 class="mx-auto my-0 text-uppercase">Banh Code{/}</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">The best error message is the one that never shows up.</h2>
-                    <a class="btn btn-primary" href="#about">Get Started</a>
                 </div>
             </div>
         </div>
@@ -134,7 +133,7 @@
                 <img src="assets/img/logo-python.png" alt="..." style="width: 300px;">
                 <h3>Python</h3>
                 <p>we will give all knowledge about python to users who will learn in this class and also we will give prizes to users who get good ratings from our team</p>
-                <a class="btn btn-primary" href="transaction_js.php">Select</a>
+                <a class="btn btn-primary" href="transaction_py.php">Select</a>
             </div>
         </div>
 
@@ -150,7 +149,7 @@
         <!--end-->
 
 
-        <!-- Signup-->
+        <!-- Feedback-->
         <section class="signup-section" id="responses">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -209,7 +208,7 @@
                 </div>
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://twitter.com/Banh_Code"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://www.instagram.com/sumantri7968/"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="https://github.com/Bayu-Sumantri"><i class="fab fa-github"></i></a>
                 </div>
             </div>
