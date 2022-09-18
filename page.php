@@ -102,8 +102,8 @@
                     <div class="text-center h-100 project" style="background-color: #C4C8E3;">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-black-50">Mountains</h4>
-                                <p class="mb-0 text-black-80">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                <h4 class="text-black-50">Plans</h4>
+                                <p class="mb-0 text-black-80">we will help with problems about programming on this web and we will also comment on anything that is lacking or problems on this web!</p>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>

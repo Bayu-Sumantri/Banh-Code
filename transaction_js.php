@@ -98,7 +98,7 @@
         <p class="card-text text-center m-3">Learn Angular.js , React.js , Vue.js</p>
         <hr style="color: gray;">
         <h2 class="card-text text-center m-3 text-dark">$49,99/Month</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 130px;">Select</a>
+        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
     <div class="card">
@@ -111,10 +111,10 @@
         <hr style="color: gray;">
         <p class="card-text text-center">Learn Full Framework And API</p>
         <hr style="color: gray;">
-        <p class="card-text text-center">Jlearn directly with the teacher in class and can ask as much as you like with the teacher assistant </p>
+        <p class="card-text text-center">learn directly with the teacher in class and can ask as much as you like with the teacher assistant </p>
         <hr style="color: gray;">
         <h2 class="card-text text-center text-dark">$500/Year</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 130px;">Select</a>
+        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
   </div>

@@ -66,36 +66,37 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#313131" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,186.7C384,171,480,85,576,80C672,75,768,149,864,197.3C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
     <!--Class-->
-    <h1 class="text-dark text-center" id="Course">Course</h1>
+    <h1 class="text-black text-center" id="Course">Course</h1>
 <div class="container">
   <div class="card-group vgr-cards">
     <div class="card">
       <div class="card-img-body bg-gradient">
-      <img class="card-img" src="assets/img/transaction_py/1.jpg" alt="Card image cap">
+      <img class="card-img" src="assets/img/transaction_php/1.jpg" alt="Card image cap">
       </div>
       <div class="card-body">
         <h4 class="card-title text-center">Singgle Course</h4>
         <hr style="color: gray;">
-        <p class="card-text text-center m-3">Python and Library</p>
+        <p class="card-text text-center m-3">PHP and Framework</p>
         <hr style="color: gray;">
-        <p class="card-text text-center m-3">Hug  And Dash</p>
-        <p class="card-text text-center m-3">And</p>
+        <p class="card-text text-center m-3">Laravel  And CodeIgniter</p>
+        <hr style="color: gray;">
         <p class="card-text text-center m-3">Zoom with the teacher for 2-3 hours a day</p>
-        <h2 class="card-text text-center m-3 text-dark">$19,35/Course</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+        <hr style="color: gray;">
+        <h2 class="card-text text-center m-3 text-dark">$13,35/Course</h2>
+        <a href="" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
     <div class="card">
       <div class="card-img-body">
-        <img class="card-img" src="assets/img/transaction_py/2.jpg" alt="Card image cap"></div>
+        <img class="card-img" src="assets/img/transaction_php/2.jpg" alt="Card image cap"></div>
       <div class="card-body">
         <h4 class="card-title text-center">Semi Course</h4>
         <hr style="color: gray;">
-        <p class="card-text text-center m-3">Python and Library</p>
+        <p class="card-text text-center m-3">PHP and Framework API</p>
         <hr style="color: gray;">
         <p class="card-text text-center m-3">lern private with teacher in zoom</p>
         <hr style="color: gray;">
-        <p class="card-text text-center m-3">Learn Django , Falcon , AIOHTTP</p>
+        <p class="card-text text-center m-3">Learn Rest API , CodeIgniter</p>
         <hr style="color: gray;">
         <h2 class="card-text text-center m-3 text-dark">$49,99/Month</h2>
         <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
@@ -103,18 +104,18 @@
     </div>
     <div class="card">
       <div class="card-img-body">
-        <img class="card-img" src="assets/img/transaction_py/3.jpg" alt="Card image cap"></div>
+        <img class="card-img" src="assets/img/transaction_php/3.jpg" alt="Card image cap"></div>
       <div class="card-body">
         <h4 class="card-title text-center">Full Course</h4>
         <hr style="color: gray;">
-        <p class="card-text text-center">Javascript And Full Library</p>
+        <p class="card-text text-center">PHP And Framework API</p>
         <hr style="color: gray;">
-        <p class="card-text text-center">Learn Full Framework And Code</p>
+        <p class="card-text text-center">Learn Full Framework And API</p>
         <hr style="color: gray;">
-        <p class="card-text text-center">choose what library you want to learn and can ask if there is a problem that makes you confused with the tutor teacher</p>
+        <p class="card-text text-center">learn directly with the teacher in class and can ask as much as you like with the teacher assistant </p>
         <hr style="color: gray;">
         <h2 class="card-text text-center text-dark">$500/Year</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 130px;">Select</a>
+        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
   </div>
@@ -171,7 +172,7 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">69 63 69 6B 69 77 69 72</div>
+                                <div class="small text-black-50">+626666666666</div>
                             </div>
                         </div>
                     </div>

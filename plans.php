@@ -63,88 +63,42 @@
         </div>
     </section>
     <!-- Projects Class-->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #010101;
-        }
-
-        /* Float four columns side by side */
-        .column {
-            float: left;
-            width: 25%;
-            padding: 0 10px;
-            background-color: #010101;
-        }
-
-        /* Remove extra left and right margins, due to padding */
-        .row {
-            margin: 0 -5px;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /*coloum*/
-        .card1:hover {
-            background-color: lightblue;
-            box-shadow: 0px 12px 12px 5px #464646;
-            transition: 250ms ease;
-        }
-
-        /* Responsive columns */
-        @media screen and (max-width: 600px) {
-            .column {
-                width: 100%;
-                display: block;
-                margin-bottom: 20px;
-            }
-        }
-
-        /* Style the counter cards */
-        .card1 {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            padding: 16px;
-            text-align: center;
-            border-radius: 7px;
-            background-color: lightblue;
-        }
-    </style>
-    <div class="row" id="projects">
-        <div class="column" style="margin-left: 80px;">
-            <div class="card1">
-                <img src="assets/img/javascript.png" alt=".." style="width: 300px;">
-                <h3>Javascript</h3>
-                <p>the users will be taught all the latest javascript technology and also the user will get an award from Banh Code if the user gets a good rating</p>
-                <a class="btn btn-primary" href="transaction_js.php">Select</a>
-            </div>
-        </div>
-
-        <div class="column" style="margin-left: 500px;">
-            <div class="card1">
-                <img src="assets/img/logo-python.png" alt="..." style="width: 300px;">
-                <h3>Python</h3>
-                <p>we will give all knowledge about python to users who will learn in this class and also we will give prizes to users who get good ratings from our team</p>
-                <a class="btn btn-primary" href="transaction_py.php">Select</a>
-            </div>
-        </div>
-
-        <div class="column" style="margin-left: 500px;">
-            <div class="card1">
-                <img src="assets/img/php.png" alt=".." style="width: 300px;">
-                <h3 style="margin: 10px;">PHP</h3>
-                <p>Here we will learn about variables and looping in php and also we will learn a little about databases using mysql, precisely learn CRUD</p>
-                <a class="btn btn-primary" href="transaction_js.php">Select</a>
-            </div>
-        </div>
+     <h1 class="text-black text-center" id="Course">Course</h1>
+<div class="container">
+  <div class="card-group vgr-cards">
+    <div class="card">
+      <div class="card-img-body bg-gradient">
+      <img class="card-img" src="assets/img/javascript.png" alt="Card image cap" style="width: 100%px;">
+      </div>
+      <div class="card-body">
+        <h4 class="card-title text-center">Javascript</h4>
+        <hr style="color: gray;">
+        <h4 class="card-text text-center m-3" style="font-size: 20px;">the users will be taught all the latest javascript technology and also the user will get an award from Banh Code if the user gets a good rating</h4>
+        <a href="transaction_js.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-body">
+        <img class="card-img" src="assets/img/logo-python.png" alt="Card image cap"></div>
+      <div class="card-body">
+        <h4 class="card-title text-center">Python</h4>
+        <hr style="color: gray;">
+        <h4 class="card-text text-center m-3" style="font-size: 20px;">we will give all knowledge about python to users who will learn in this class and also we will give prizes to users who get good ratings from our team</h4>
+        <a href="transaction_py.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-body">
+        <img class="card-img" src="assets/img/php.png" alt="Card image cap"></div>
+      <div class="card-body">
+        <h4 class="card-title text-center">PHP</h4>
+        <hr style="color: gray;">
+        <h4 class="card-text text-center" style="font-size: 20px;">Here we will learn about variables and looping in php and also we will learn a little about databases using mysql, precisely learn CRUD</h4>
+        <a href="transaction_php.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+      </div>
+    </div>
+  </div>
+</div>
 
         <!--end-->
 
