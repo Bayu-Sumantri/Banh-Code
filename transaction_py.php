@@ -82,7 +82,7 @@
         <p class="card-text text-center m-3">And</p>
         <p class="card-text text-center m-3">Zoom with the teacher for 2-3 hours a day</p>
         <h2 class="card-text text-center m-3 text-dark">$19,35/Course</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+        <a href="transaction.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
     <div class="card">
@@ -98,7 +98,7 @@
         <p class="card-text text-center m-3">Learn Django , Falcon , AIOHTTP</p>
         <hr style="color: gray;">
         <h2 class="card-text text-center m-3 text-dark">$49,99/Month</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+        <a href="transaction.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
       </div>
     </div>
     <div class="card">
@@ -114,7 +114,7 @@
         <p class="card-text text-center">choose what library you want to learn and can ask if there is a problem that makes you confused with the tutor teacher</p>
         <hr style="color: gray;">
         <h2 class="card-text text-center text-dark">$500/Year</h2>
-        <a href="#" class="btn btn-outline-primary" style="margin-left: 130px;">Select</a>
+        <a href="transaction.php" class="btn btn-outline-primary" style="margin-left: 130px;">Select</a>
       </div>
     </div>
   </div>

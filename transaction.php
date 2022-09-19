@@ -1,90 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/transaction.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/transaction.css">
+    <link rel="javascript" href="js/transaction.js">
+    <link rel="shortcut icon" href="assets/img/Banh Code.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<h2>Responsive Checkout Form</h2>
-<p>Ubah ukuran jendela browser untuk melihat efeknya. Ketika layar kurang dari 800px lebarnya, buat dua kolom bertumpuk satu sama lain, bukan bersebelahan.</p>
-<div class="row">
-  <div class="col-75">
-    <div class="container">
-      <form action="/action_page.php">
-      
-        <div class="row">
-          <div class="col-50">
-            <h3>Billing Address</h3>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="icikiwir">
-            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="icikiwir">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Alamat</label>
-            <input type="text" id="adr" name="address" placeholder="icikiwir">
-            <label for="city"><i class="fa fa-institution"></i> Kota</label>
-            <input type="text" id="city" name="city" placeholder="icikiwir">
+<form action="proses_paymen.php" method="post">
 
-            <div class="row">
-              <div class="col-50">
-                <label for="state">Negara</label>
-                <input type="text" id="state" name="state" placeholder="icikiwir">
-              </div>
-              <div class="col-50">
-                <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="icikiwir">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-50">
-            <h3>Pembayaran</h3>
-            <label for="fname">Kartu yang Diterima</label>
-            <div class="icon-container">
-              <i class="fa fa-cc-visa" style="color:navy;"></i>
-              <i class="fa fa-cc-amex" style="color:blue;"></i>
-              <i class="fa fa-cc-mastercard" style="color:red;"></i>
-              <i class="fa fa-cc-discover" style="color:orange;"></i>
-            </div>
-            <label for="cname">Nama di kartu</label>
-            <input type="text" id="cname" name="cardname" placeholder="icikiwir">
-            <label for="ccnum">Nomor kartu kredit</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="icikiwir">
-            <label for="expmonth">Bulan Kedaluwarsa</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="icikiwir">
-            <div class="row">
-              <div class="col-50">
-                <label for="expyear">Tahun Kedaluwarsa</label>
-                <input type="text" id="expyear" name="expyear" placeholder="icikiwir">
-              </div>
-              <div class="col-50">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="icikiwir">
-              </div>
-            </div>
-          </div>
-          
-        </div>
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Alamat pengiriman sama dengan billing
-        </label>
-        <input type="submit" value="Continue to checkout" class="btn">
-      </form>
-    </div>
-  </div>
-  <div class="col-25">
-    <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="#">Product 1</a> <span class="price">$45</span></p>
-      <p><a href="#">Product 2</a> <span class="price">$10</span></p>
-      <p><a href="#">Product 3</a> <span class="price">$20</span></p>
-      <p><a href="#">Product 4</a> <span class="price">$25</span></p>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>$100</b></span></p>
-    </div>
-  </div>
+<div id="wrapper">
+  <div class="row">
+    <div class="col-xs-5">
+      <div id="cards">
+        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png">
+        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Master-Card-icon.png">
+      </div><!--#cards end-->
+      <div class="form-check">
+  <label class="form-check-label" for='card'>
+    <input id="card" class="form-check-input" type="radio" value="visa and master" name="payment" required>
+    Pay with credit card visa & master
+  </label>
 </div>
-
+    </div><!--col-xs-5 end-->
+    <div class="col-xs-5">
+      <div id="cards">
+        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Paypal-icon.png">
+      </div><!--#cards end-->
+      <div class="form-check">
+  <label class="form-check-label" for='paypal'>
+    <input id="paypal" class="form-check-input" type="radio" value="paypal and discound" name="payment" required>
+    Pay with PayPal and 15% discount
+  </label>
+</div>
+    </div><!--col-xs-5 end-->
+  </div><!--row end-->
+  <div class="row">
+    <div class="col-xs-5">
+      <label for="cardholder">Your Name</label>
+      <input type="text" id="cardholder" name="nama" required>
+    </div><!--col-xs-5-->
+    <div class="col-xs-5">
+      <i class="fa fa-credit-card-alt"></i>
+      <label for="cardnumber">Card Number</label>
+      <input type="number" id="cardnumber" name="card_number" required>
+    </div><!--col-xs-5-->
+    <div class="col-xs-5">
+      <i class="fa fa-credit-card-alt"></i>
+      <label for="cardnumber">Your Gmail</label>
+      <input type="Email" id="cardnumber" name="Gmail" required>
+    </div><!--col-xs-5-->
+  </div><!--row end-->
+  <div class="row row-three">
+    <div class="col-xs-2">
+      <label for="date">Valid thru</label>
+      <input type="text" placeholder="DD/MM/YYYY" id="date" name="valid_thru" required>
+    </div><!--col-xs-3-->
+    <div class="col-xs-2">
+      <label for="date">CVV / CVC *</label>
+      <input type="number" name="cw/cv" required>
+    </div><!--col-xs-3-->
+    <div class="col-xs-5">
+      <span class="small">* CVV or CVC is the card security code, unique three digits number on the back of your card seperate from its number.</span>
+    </div><!--col-xs-6 end-->
+  </div><!--row end-->
+  <footer>
+  <a href="plans.php" class="btn btn-outline-primary">Back</a>
+  <input type="submit" name="submit" value="simpan" class="btn btn-outline-primary" style="margin-left: 110px;">
+  </footer>
+</div><!--wrapper end-->
+</from>
 </body>
+
 </html>
