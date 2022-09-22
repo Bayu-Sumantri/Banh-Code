@@ -1,0 +1,12 @@
+*{
+    background: #ffffff;
+}
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.text{
+    text-align: center;
+}

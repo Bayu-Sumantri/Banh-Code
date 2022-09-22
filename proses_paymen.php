@@ -32,5 +32,5 @@ if (mysqli_query($conn, $sql)) {
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-header("location: page.php");
+header("location: transaction_berhasil.html");
      // mysqli_close($conn);

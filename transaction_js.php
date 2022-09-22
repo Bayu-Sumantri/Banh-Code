@@ -3,6 +3,116 @@
 
 <head>
     <meta charset="utf-8" />
+    <?php session_start();
+    ?>
+    <!-- <style>
+    .loading-overlay {
+        width: 100%;
+        height: 100%;
+        position: fixed !important;
+        position: absolute;
+        /* IE6 Fallback */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 999999;
+        background: url('assets/loading/loding.gif') no-repeat 50% 50%;
+        font: normal normal 0/0 a;
+        color: transparent;
+        text-shadow: none;
+    }
+    </style> -->
+    <style>
+    /* loading Tengah */
+
+    #loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* Penambahan animasi loading di "transaction_js" */
+    .animate-bottom {
+        position: relative;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 1s;
+        animation-name: animatebottom;
+        animation-duration: 1s
+    }
+
+    @-webkit-keyframes animatebottom {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+
+        to {
+            bottom: 0px;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatebottom {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+
+    #myDiv {
+        display: none;
+    }
+
+    .avatar1 {
+        width: 40px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 17px
+    }
+
+    .name {
+        margin-top: 26px;
+        color: #818996;
+    }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -36,6 +146,10 @@
                     <li class="nav-item"><a class="nav-link" href="#Course">Class</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    <img class="avatar1" src="assets/img/pp.jpeg" width="40" height="40" class="rounded-circle">
+                    <p class="name"><?php echo $_SESSION['nama']; ?></p>
+
                 </ul>
             </div>
         </div>
@@ -85,7 +199,7 @@
                     <img class="card-img" src="assets/img/transaction_js/1.jpg" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <h4 class="card-title text-center">Singgle Course</h4>
+                    <h4 class="card-title text-center">Single Course</h4>
                     <hr style="color: gray;">
                     <p class="card-text text-center m-3">Javascript and Framework</p>
                     <hr style="color: gray;">
@@ -229,6 +343,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
-</body>
+
+    <!-- Loading Page -->
+
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <script>
+            // Loading Page
+            var myVar;
+
+            function myFunction() {
+
+                myVar = setTimeout(showPage, 500);
+
+            }
+
+            function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("myDiv").style.display = "block";
+            }
+            </script>
+
+            <!-- <script type="text/javascript">
+    $(".loading-overlay").hide();
+    </script> -->
+
+    </body>
 
 </html>
