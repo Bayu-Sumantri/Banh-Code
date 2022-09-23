@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <title>Banh_Code</title>
 
     <style>
     /* Center the loader */
@@ -153,15 +154,17 @@
                     <label for="date">Valid thru</label>
                     <input type="text" placeholder="DD/MM/YYYY" id="date" name="valid_thru" required>
                 </div>
-                <!--col-xs-3-->
-                <div class="col-xs-2">
-                    <label for="date">CVV / CVC *</label>
-                    <input type="number" name="cw/cv" required>
+                <!--col-xs-3-->     
+                 <div class="col-xs-2">
+                    <label for="date">Name Class</label>
+                    <input type="text" name="name_class" required>
+                </div>        
+                   <div class="col-xs-2">
+                    <label for="date">Price</label>
+                    <input type="number" name="price" required>
                 </div>
                 <!--col-xs-3-->
                 <div class="col-xs-5">
-                    <span class="small">we just made two cards for our class payment and we will continue to add more
-                        payment methods.</span>
                 </div>
                 <!--col-xs-6 end-->
             </div>

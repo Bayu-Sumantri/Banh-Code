@@ -97,19 +97,6 @@
     #myDiv {
         display: none;
     }
-
-    .avatar1 {
-        width: 40px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-top: 17px
-    }
-
-    .name {
-        margin-top: 26px;
-        color: #818996;
-    }
     </style>
 
 
@@ -129,12 +116,8 @@
                     <li class="nav-item"><a class="nav-link" href="#Course">Class</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-
-                    <img class="avatar1" src="assets/img/pp.jpeg" width="40" height="40" class="rounded-circle">
-                    <p class="name"><?php
-                                    session_start();
-                                    echo $_SESSION['nama'];
-                                    ?></p>
+                    <li class="nav-item"><a class="nav-link" href="account.php"><?php session_start();
+                                    echo $_SESSION['nama']; ?></a></li>
                 </ul>
             </div>
         </div>
