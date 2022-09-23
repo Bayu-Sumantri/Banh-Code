@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>admin Template</title>
+    <title>Banh_Code</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -104,7 +104,7 @@
 
 
     <div class="wrapper">
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-brand">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -118,7 +118,8 @@
       <aside class="sidebar">
         <menu>
           <ul class="menu-content">
-            <li><a href="#"><i class="fa fa-home"></i> Account</a></li>
+            <li><a href="account.php" ><i class="fa fa-angle-double-right" aria-hidden="true" style="margin-left: 60px"></i><?php echo $_SESSION['nama']; ?></a></li>
+            <li><a href="account.php"><i class="fa fa-home"></i> Account</a></li>
             <li><a href="#"><i class="fa fa-shopping-basket"></i> <span>Pembelian</span></a></li>
           </ul>
         </menu>
