@@ -97,8 +97,21 @@
     </div>
     <br>
     <div class="login">
-        <input type="email" placeholder="Email" name="e_mail" require><br>
-        <input type="password" placeholder="password" name="password_usr"><br>
+        <input type="email" placeholder="Email" name="e_mail" required><br>
+        <input type="password" placeholder="password" name="password_usr" id="inputPassword" required><br>
+
+        <input type="checkbox" onclick="myFunction()">Tampilkan Password
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("inputPassword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
 
 
         <input type="submit" name="submit" value="simpan" class="button"><br>

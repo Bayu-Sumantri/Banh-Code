@@ -177,7 +177,7 @@
                     <h4 class="card-text text-center m-3" style="font-size: 20px;">we will give all knowledge about
                         python to users who will learn in this class and also we will give prizes to users who get good
                         ratings from our team</h4>
-                    <a href="transaction_py.php" class="btn btn-outline-primary" style="margin-left: 110px;">Select</a>
+                    <a href="transaction_py.php" class="btn btn-outline-primary" style="margin-left: 108px;">Select</a>
                 </div>
             </div>
             <div class="card">
@@ -241,7 +241,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">JL.Icikiwir no 66 <br> Slamet Kopling</div>
+                             <div class="small text-black-50">JL.Icikiwir no 66 <br>kecamatan Slamet Kopling</div>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,8 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="www.gmail.com">Banh Code.com</a></div>
+                            <div class="small text-black-50"><a href="https://i.pinimg.com/originals/0f/86/6c/0f866ce4373f288aca970cae971891fc.jpg">Banh
+                                    Code@gmail.com</a></div>
                         </div>
                     </div>
                 </div>

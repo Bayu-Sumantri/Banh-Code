@@ -96,10 +96,10 @@
     </div>
     <br>
     <div class="login">
-        <input type="text" placeholder="User Name" name="nama" require><br>
-        <input type="number" placeholder="Phone" name="phone"><br><br>
-        <input type="email" placeholder="E_mail" name="e_mail"><br>
-        <input type="password" placeholder="password" name="password_usr"><br>
+        <input type="text" placeholder="User Name" name="nama" required><br>
+        <input type="number" placeholder="Phone" name="phone" required><br><br>
+        <input type="email" placeholder="E_mail" name="e_mail" required><br>
+        <input type="password" placeholder="password" name="password_usr" required><br>
 
 
         <input type="submit" name="submit" value="simpan" class="button"><br>

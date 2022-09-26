@@ -275,7 +275,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">JL.Icikiwir no 66 <br> Slamet Kopling</div>
+                              <div class="small text-black-50">JL.Icikiwir no 66 <br>kecamatan Slamet Kopling</div>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,8 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="www.gmail.com">Banh Code.com</a></div>
+                            <div class="small text-black-50"><a href="https://i.pinimg.com/originals/0f/86/6c/0f866ce4373f288aca970cae971891fc.jpg">Banh
+                                    Code@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
