@@ -1,8 +1,7 @@
 <?
 $sistem = $_GET['sistem'];
 
-if ($sistem == "try") {
-    session_start();
+if ($sistem == "salahlu") {
     session_start();
     session_destroy();
 ?>
@@ -10,13 +9,10 @@ if ($sistem == "try") {
         alert('Nice Try..!!!\nData yang anda masukan tidak valid\nSilahkan Login ulang');
         window.location.href = './';
     </script>
+}
 <?
-} else if ($sistem == "logout") {
+ else ($keluar == "logout") {
     session_start();
-    // Hapus semua variabel sesi.
-    $_SESSION = array();
-
-    // Finally, destroy the session.
     session_destroy();
 ?>
     <script>

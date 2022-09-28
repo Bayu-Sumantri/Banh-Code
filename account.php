@@ -128,11 +128,10 @@ session_start();
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Banh_Code</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves" width="250" />
 
                 </button>
                 </li>
@@ -141,8 +140,14 @@ session_start();
         <aside class="sidebar">
             <menu>
                 <ul class="menu-content">
-                    <li><a class="tengah fa fa-angle-double-right" aria-hidden="true" href="plans.php"><?php echo $_SESSION['nama']; ?></a></li>
-                    <li><a href="account.php"><i class="fa fa-home"></i> Account</a></li>   
+                    <li><a class="tengah fa fa-angle-double-right" aria-hidden="true"
+                            href="plans.php"><?php echo $_SESSION['nama']; ?></a></li>
+                    <li><a href="account.php"><i class="fa fa-solid fa-user"></i> Account</a></li>
+                    <a href="sistem.php?keluar=logout" class="btn btn-danger btn-block"><i
+                            class="nav-icon fas fa-sign-out-alt" style="color: white;"></i> <b
+                            style="color: white;">Sign out </b></a>
+                    </li>
+
                 </ul>
             </menu>
         </aside>
@@ -150,8 +155,8 @@ session_start();
             <div class="inner">
                 <p>
                     <?php
-          include 'koneksi.php';
-          ?>
+                    include 'koneksi.php';
+                    ?>
                 <table border="1" width="100%">
                     <h1>Info Account</h1>
                     <tr>
@@ -178,17 +183,20 @@ session_start();
 
                     </tr>
                     <?php
-          include 'koneksi.php';
-          $data = mysqli_query($conn, "select * from regis_login");
-          while ($d = mysqli_fetch_array($data)) {
-          ?>
+                    include 'koneksi.php';
+                    $data = mysqli_query($conn, "select * from regis_login");
+                    while ($d = mysqli_fetch_array($data)) {
+                    ?>
                     <?php
-          }
-          ?>
+                    }
+                    ?>
                 </table>
 
 
 
+                <div style="width:500px; margin-left: 500px;"><iframe allow="fullscreen" frameBorder="0" height="270"
+                        src="http://www.mitrapenerjemah.com/wp-content/uploads/2012/06/Animasi-GIF.gif"
+                        width="480"></iframe></div>
 
 
 
@@ -196,7 +204,6 @@ session_start();
 
 
 
-                
                 </p>
             </div>
         </section>
