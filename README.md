@@ -1,3 +1,3 @@
-<p>This website is still under development and we are still trying to work</p>
-<p> on the buds in our plans and we will fix it soon and this is just an update with bugs</p>
-<p>final result</p>
+<p>This web git hub is still under development and is still in the framework of using or implementing</p>
+<p> the codeigniter3 framework and later there will be an update about the codeigniter3 version of the Banh_Code web</p>
+<p>still under development</p>
