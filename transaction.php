@@ -88,6 +88,19 @@
     #myDiv {
         display: none;
     }
+        /*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: transparent;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:   rgba(0,0,204, 0.5);
+}
     </style>
 
 

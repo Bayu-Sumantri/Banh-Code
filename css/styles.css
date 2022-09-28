@@ -11705,3 +11705,14 @@ body {
 #submitButton {
   margin: 10px;
 }
+
+.wrap{
+  margin: 10px auto;
+  width: 950px;
+  padding: 20px;
+  color: #fff;
+  background: #35A9DB;
+  text-align: justify;
+}
+ 
+ 

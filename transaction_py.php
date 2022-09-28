@@ -99,6 +99,20 @@
     #myDiv {
         display: none;
     }
+
+        /*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: transparent;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:   rgba(0,0,204, 0.5);
+}
     </style>
 
 
@@ -294,7 +308,7 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5">Copyright &copy; Banh Code 2022</div>
+        <div class="container px-4 px-lg-5">Copyright &copy;<a class="link" href="https://github.com/Bayu-Sumantri"> Banh Code  </a> 2022 </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

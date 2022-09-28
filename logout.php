@@ -6,8 +6,7 @@ if ($logout == "salahlu") {
     session_start();
     session_destroy();
 ?>
-<!--     <script>
-        alert('Nice Try..!!!\nData yang adan masukan tidak valid\nSilahkan Login ulang');
+<!--     <script>alert('Nice Try..!!!\nData yang adan masukan tidak valid\nSilahkan Login ulang');
         window.location.href = './';
     </script> -->
 <?
