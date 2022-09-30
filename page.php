@@ -13,14 +13,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
     <?php
-     session_start();
+    session_start();
     ?>
 
     <style>
@@ -101,18 +103,18 @@
     }
 
     /*css3 design scrollbar*/
-::-webkit-scrollbar {
-    width: 15px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
-    background: transparent;    
-}
- 
-::-webkit-scrollbar-thumb {
-    background:   rgba(0,0,204, 0.5);
-}
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 204, 0.5);
+    }
     </style>
 
 
@@ -134,7 +136,7 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="plans.php">plans</a></li>
                     <li class="nav-item"><a class="nav-link" href="account.php">
-                        <?php echo $_SESSION['nama']; ?></a></li>
+                            <?php echo $_SESSION['nama']; ?></a></li>
 
             </div>
         </div>
@@ -169,7 +171,8 @@
                     </p>
                 </div>
             </div>
-            <img class="img-fluid" data-aos="zoom-in" data-aos-delay="200" src="assets/img/Banh_Code-(no-background).png" alt="..." />
+            <img class="img-fluid" data-aos="zoom-in" data-aos-delay="200"
+                src="assets/img/Banh_Code-(no-background).png" alt="..." />
         </div>
 
     </section>
@@ -181,12 +184,11 @@
     </svg>
 
     <section class="projects-section bg-light" id="projects">
-        <div class="container px-4 px-lg-5" data-aos="zoom-in-up"
-     data-aos-duration="1000">
+        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="1000">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" data-aos="zoom-out-right" src="assets/img/icikiwir.jpg"
-                        alt="..." /></div>
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" data-aos="zoom-out-right"
+                        src="assets/img/icikiwir.jpg" alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>Programs</h4>
@@ -198,9 +200,7 @@
             </div>
             <!-- Project One Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500">
+                data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/coding banh.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="text-center h-100 project" style="background-color: #C4C8E3;">
@@ -240,25 +240,26 @@
     <section class="signup-section" id="responses">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="500" >
+                <div class="col-md-10 col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="500">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5" data-aos="fade-up" data-aos-duration="500">give us feedback for improvement!</h2>
+                    <h2 class="text-white mb-5" data-aos="fade-up" data-aos-duration="500">give us feedback for
+                        improvement!</h2>
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN"
                         action="proses_contact.php" method="post">
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="gmail" type="email" placeholder="Enter email address..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter email address..." required></div>
+                                    name="gmail" type="email" placeholder="Enter email address..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter email address..." required></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="username" type="text" placeholder="Enter Your username..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Your username..." /></div>
+                                    name="username" type="text" placeholder="Enter Your username..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Your username..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="no_phone" type="number" placeholder="Enter Number Phone..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Number Phone..." /></div>
+                                    name="no_phone" type="number" placeholder="Enter Number Phone..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Number Phone..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="tanggapan" type="text" placeholder="Enter Your response..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Your response..." /></div>
+                                    name="tanggapan" type="text" placeholder="Enter Your response..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Your response..." /></div>
                             <div class="row-auto"></div>
                             <button class="btn btn-primary" style="width: 96%; margin-left: 15px;" id="submitButton"
                                 type="submit" data-aos="fade-up" data-aos-duration="5000">Notify Me!</button>
@@ -315,7 +316,8 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="500">Copyright &copy;<a class="link" href="https://github.com/Bayu-Sumantri"> Banh Code  </a> 2022 </div>
+        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="500">Copyright &copy;<a
+                class="link" href="https://github.com/Bayu-Sumantri"> Banh Code </a> 2022 </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -341,9 +343,9 @@
                 document.getElementById("myDiv").style.display = "block";
             }
             </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script>
-                AOS.init();
+            AOS.init();
             </script>
 
     </body>
