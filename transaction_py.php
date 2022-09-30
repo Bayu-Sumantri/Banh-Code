@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <title>Banh Code</title>
     <link rel="icon" type="image/x-icon" href="assets/img/Banh Code.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link rel="stylesheet" href="css/transaction_js.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Banh Code</title>
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
+    <?php
+     session_start();
+    ?>
 
     <style>
     /* Center the loader */
 
     #loader {
         position: absolute;
-        color: white;
         left: 50%;
         top: 50%;
         z-index: 1;
@@ -100,7 +100,7 @@
         display: none;
     }
 
-        /*css3 design scrollbar*/
+    /*css3 design scrollbar*/
 ::-webkit-scrollbar {
     width: 15px;
 }
@@ -117,7 +117,7 @@
 
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" data-aos="fade-down" data-aos-duration="500">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="plans.php">Banh Code</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
@@ -128,23 +128,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#Course">Class</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="account.php"><?php session_start();
-                                    echo $_SESSION['nama']; ?></a></li>
-                </ul>
+                    <li class="nav-item"><a class="nav-link" href="plans.php">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account.php">
+                        <?php echo $_SESSION['nama']; ?></a></li>
+
             </div>
         </div>
+        </div>
     </nav>
+
     <!-- Masthead-->
     <header class="masthead">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Banh Code{/}</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">The best error message is the one that never shows up.
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">The best error message is the one that never shows
+                        up.
                     </h2>
+                    <a class="btn btn-primary" href="#about">Get Started</a>
                 </div>
             </div>
         </div>
@@ -153,16 +158,17 @@
     <section class="about-section text-center" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
                     <h2 class="text-white mb-4">Git Hub Banh Code</h2>
                     <p class="text-white-50">
                         we have a Git Hub which contains PHP programs and we continue to publish to
-                        <a href="https://github.com/Bayu-Sumantri">Git Hub.</a> so that we provide good programs or code
+                        <a href="https://github.com/Bayu-Sumantri">Git Hub.</a> so that we provide good programs or
+                        code
                         for Banh Code users to use.
                     </p>
                 </div>
             </div>
-            <img class="img-fluid" src="assets/img/Banh_Code-(no-background).png" alt="..." />
+            <img class="img-fluid" data-aos="zoom-in" data-aos-delay="200" src="assets/img/Banh_Code-(no-background).png" alt="..." />
         </div>
 
     </section>
@@ -174,8 +180,8 @@
     </svg>
 
     <!--Class-->
-    <h1 class="text-dark text-center" id="Course">Course</h1>
-    <div class="container">
+    <h1 class="text-dark text-center" id="Course" data-aos="zoom-in" data-aos-delay="200">Course</h1>
+    <div class="container" data-aos="zoom-in" data-aos-delay="200">
         <div class="card-group vgr-cards">
             <div class="card">
                 <div class="card-img-body bg-gradient">
@@ -230,32 +236,32 @@
             </div>
         </div>
     </div>
-    <!-- Feedback-->
+    <!-- Signup-->
     <section class="signup-section" id="responses">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <div class="col-md-10 col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="500" >
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">give us feedback for improvement!</h2>
+                    <h2 class="text-white mb-5" data-aos="fade-up" data-aos-duration="500">give us feedback for improvement!</h2>
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN"
                         action="proses_contact.php" method="post">
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="gmail" type="email" placeholder="Enter email address..."
+                                    name="gmail" type="email" placeholder="Enter email address..." data-aos="fade-up" data-aos-duration="5000"
                                     aria-label="Enter email address..." required></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="username" type="text" placeholder="Enter Your username..."
+                                    name="username" type="text" placeholder="Enter Your username..." data-aos="fade-up" data-aos-duration="5000"
                                     aria-label="Enter Your username..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="no_phone" type="number" placeholder="Enter Number Phone..."
+                                    name="no_phone" type="number" placeholder="Enter Number Phone..." data-aos="fade-up" data-aos-duration="5000"
                                     aria-label="Enter Number Phone..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="tanggapan" type="text" placeholder="Enter Your response..."
+                                    name="tanggapan" type="text" placeholder="Enter Your response..." data-aos="fade-up" data-aos-duration="5000"
                                     aria-label="Enter Your response..." /></div>
                             <div class="row-auto"></div>
                             <button class="btn btn-primary" style="width: 96%; margin-left: 15px;" id="submitButton"
-                                type="submit">Notify Me!</button>
+                                type="submit" data-aos="fade-up" data-aos-duration="5000">Notify Me!</button>
                         </div>
                     </form>
                 </div>
@@ -264,7 +270,7 @@
     </section>
     <!-- Contact-->
     <section class="contact-section bg-black" id="contact">
-        <div class="container px-4 px-lg-5">
+        <div class="container px-4 px-lg-5" data-aos="fade-up" data-aos-duration="500">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
@@ -272,7 +278,7 @@
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Address</h4>
                             <hr class="my-4 mx-auto" />
-                              <div class="small text-black-50">JL.Icikiwir no 66 <br>kecamatan Slamet Kopling</div>
+                            <div class="small text-black-50">JL.Icikiwir no 66 <br>kecamatan Slamet Kopling</div>
                         </div>
                     </div>
                 </div>
@@ -282,7 +288,8 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="https://i.pinimg.com/originals/0f/86/6c/0f866ce4373f288aca970cae971891fc.jpg">Banh
+                            <div class="small text-black-50"><a
+                                    href="https://i.pinimg.com/originals/0f/86/6c/0f866ce4373f288aca970cae971891fc.jpg">Banh
                                     Code@gmail.com</a></div>
                         </div>
                     </div>
@@ -293,12 +300,12 @@
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Phone</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">69 63 69 6B 69 77 69 72</div>
+                            <div class="small text-black-50">+626666666666</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="social d-flex justify-content-center">
+            <div class="social d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration="500">
                 <a class="mx-2" href="https://twitter.com/Banh_Code"><i class="fab fa-twitter"></i></a>
                 <a class="mx-2" href="https://www.instagram.com/sumantri7968/"><i class="fab fa-instagram"></i></a>
                 <a class="mx-2" href="https://github.com/Bayu-Sumantri"><i class="fab fa-github"></i></a>
@@ -308,25 +315,13 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5">Copyright &copy;<a class="link" href="https://github.com/Bayu-Sumantri"> Banh Code  </a> 2022 </div>
+        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="500">Copyright &copy;<a class="link" href="https://github.com/Bayu-Sumantri"> Banh Code  </a> 2022 </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-    </script>
 
     <body onload="myFunction()" style="margin:0;">
         <div id="loader"></div>
@@ -336,13 +331,19 @@
             var myVar;
 
             function myFunction() {
+
                 myVar = setTimeout(showPage, 500);
+
             }
 
             function showPage() {
                 document.getElementById("loader").style.display = "none";
                 document.getElementById("myDiv").style.display = "block";
             }
+            </script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
             </script>
 
     </body>
