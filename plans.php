@@ -118,8 +118,8 @@
 
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" data-aos="fade-down">
-        <div class="container px-4 px-lg-5">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5" data-aos="zoom-in" data-aos-duration="1150">
             <a class="navbar-brand" href="page.php">Banh Code</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -133,7 +133,6 @@
                     <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="plans.php">plans</a></li>
                     <li class="nav-item"><a class="nav-link" href="account.php">
                         <?php echo $_SESSION['nama']; ?></a></li>
 
@@ -146,12 +145,11 @@
     <header class="masthead">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
-                <div class="text-center">
+                <div class="text-center" data-aos="zoom-in" data-aos-duration="1150">
                     <h1 class="mx-auto my-0 text-uppercase">Banh Code{/}</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">The best error message is the one that never shows
                         up.
                     </h2>
-                    <a class="btn btn-primary" href="#about">Get Started</a>
                 </div>
             </div>
         </div>
@@ -233,29 +231,30 @@
     <!--end-->
 
 
-    <!-- Signup-->
+   <!-- Signup-->
     <section class="signup-section" id="responses">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="500" >
+                <div class="col-md-10 col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="500">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5" data-aos="fade-up" data-aos-duration="500">give us feedback for improvement!</h2>
+                    <h2 class="text-white mb-5" data-aos="fade-up" data-aos-duration="500">give us feedback for
+                        improvement!</h2>
                     <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN"
                         action="proses_contact.php" method="post">
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="gmail" type="email" placeholder="Enter email address..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter email address..." required></div>
+                                    name="gmail" type="email" placeholder="Enter email address..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter email address..." required></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="username" type="text" placeholder="Enter Your username..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Your username..." /></div>
+                                    name="username" type="text" placeholder="Enter Your username..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Your username..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="no_phone" type="number" placeholder="Enter Number Phone..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Number Phone..." /></div>
+                                    name="no_phone" type="number" placeholder="Enter Number Phone..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Number Phone..." /></div>
                             <div class="row margin" id="form_respon"><input class="form-control" id="emailAddress"
-                                    name="tanggapan" type="text" placeholder="Enter Your response..." data-aos="fade-up" data-aos-duration="5000"
-                                    aria-label="Enter Your response..." /></div>
+                                    name="tanggapan" type="text" placeholder="Enter Your response..." data-aos="fade-up"
+                                    data-aos-duration="5000" aria-label="Enter Your response..." /></div>
                             <div class="row-auto"></div>
                             <button class="btn btn-primary" style="width: 96%; margin-left: 15px;" id="submitButton"
                                 type="submit" data-aos="fade-up" data-aos-duration="5000">Notify Me!</button>
@@ -312,7 +311,8 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="500">Copyright &copy;<a class="link" href="https://github.com/Bayu-Sumantri"> Banh Code  </a> 2022 </div>
+        <div class="container px-4 px-lg-5" data-aos="zoom-in-up" data-aos-duration="500">Copyright &copy;<a
+                class="link" href="https://github.com/Bayu-Sumantri"> Banh Code </a> 2022 </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -340,7 +340,7 @@
             </script>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script>
-                AOS.init();
+            AOS.init();
             </script>
 
     </body>

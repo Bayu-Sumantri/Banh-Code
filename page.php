@@ -119,8 +119,8 @@
 
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" data-aos="fade-down">
-        <div class="container px-4 px-lg-5">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5" data-aos="zoom-in" data-aos-duration="1150">
             <a class="navbar-brand" href="#page-top">Banh Code</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -129,7 +129,7 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto" >
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
                     <li class="nav-item"><a class="nav-link" href="#responses">Feedback</a></li>
@@ -147,7 +147,7 @@
     <header class="masthead">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
-                <div class="text-center">
+                <div class="text-center" data-aos="zoom-in" data-aos-duration="1150">
                     <h1 class="mx-auto my-0 text-uppercase">Banh Code{/}</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">The best error message is the one that never shows
                         up.
